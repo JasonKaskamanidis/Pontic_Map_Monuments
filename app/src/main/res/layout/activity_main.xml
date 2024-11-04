@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Filter Buttons -->
+    <!-- Filter Buttons -->
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/btn_popup"
+        android:layout_width="42dp"
+        android:layout_height="47dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="342dp"
+        android:clickable="true"
+        android:text="Open Popup"
+        app:srcCompat="@drawable/filter" />
+
+    <ImageView
+        android:id="@+id/info_button"
+        android:layout_width="42dp"
+        android:layout_height="47dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="281dp"
+        android:clickable="true"
+        android:visibility="gone"
+        android:text="More Info"
+
+        app:srcCompat="@drawable/info" />
+
+
+</RelativeLayout>
